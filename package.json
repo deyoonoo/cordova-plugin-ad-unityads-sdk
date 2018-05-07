@@ -10,10 +10,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cranberrygame/cordova-plugin-ad-unityads-sdk.git"
+		"url": "https://github.com/jokhml/cordova-plugin-ad-unityads-sdk/tree/patch-1.git"
 	},
 	"bugs": {
-		"url": "https://github.com/cranberrygame/cordova-plugin-ad-unityads-sdk/issues"
+		"url": "https://github.com/jokhml/cordova-plugin-ad-unityads-sdk/tree/patch-1/issues"
 	},
 	"keywords": [
 		"cordova",
