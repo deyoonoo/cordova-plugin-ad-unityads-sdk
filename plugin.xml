@@ -31,17 +31,14 @@
 			android:hardwareAccelerated="true" />
 		</config-file>
 	
-		<framework src="src/android" custom="true" />
+		<resource-file src="src/android/libs/unity-ads.aar" target="/libs/unity-ads.aar" />
+		<framework src="src/android/unityads2.gradle" custom="true" type="gradleReference" />
 	</platform>
 
 	<!-- ios -->
 	<platform name="ios">
 
-		<framework src="src/ios/UnityAds.framework" custom="true"/>
-        <resource-file src="src/ios/UnityAds.bundle" />		
-		<framework src="StoreKit.framework"/>
-		<framework src="AdSupport.framework"/>
-        <framework src="CoreTelephony.framework"/>
-        <framework src="SystemConfiguration.framework"/>
+		<dependency id="cordova-plugin-add-swift-support" version="1.7.0" />
+    	<framework src="src/ios/UnityAds.framework" custom="true" />
 	</platform>
 </plugin>
